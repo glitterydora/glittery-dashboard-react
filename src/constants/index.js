@@ -25,11 +25,11 @@ import {
 export const navLinks = [
   {
     id: "about",
-    title: "About",
+    title: "Features",
   },
   {
     id: "work",
-    title: "Work",
+    title: "Careers",
   },
   {
     id: "contact",
@@ -57,38 +57,75 @@ export const technologies = [
 
 export const experiences = [
   {
-    title: "AI/ML Intern",
-    company_name: "EduSkill Foundation | AWS Academy | AICTE",
-    icon: eduskill,
-    iconBg: "#161329",
-    date: "Sep 2023 - Nov 2023",
+    title: "Live Memory Analysis",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: payloadmaster,
+    iconBg: "#23272e",
+    date: "Feature",
     points: [
-      "Acquired hands-on knowledge of AWS Cloud Foundation, delving into cloud infrastructure, services, and deployment.",
-      "also gaining a solid foundation in Machine Learning, covering topics like algorithms, data analysis, and model building.",
+      "Capture and analyze volatile memory in real-time.",
+      "Detect hidden processes, injected code, and rootkits.",
+      "Export memory artifacts for further investigation.",
     ],
   },
   {
-    title: "Mathwork Ai Virtual Intern",
-    company_name: "Mathwork | AICTE",
-    icon: mathwork,
-    iconBg: "#161329",
-    date: "May 2023 - Sep 2023",
+    title: "Automated Timeline Reconstruction",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: mhft,
+    iconBg: "#23272e",
+    date: "Feature",
     points: [
-      "Completed virtual internship, gaining a strong foundation in MATLAB, including data analysis and processing.",
-      "Acquired practical skills in image and signal processing, including segmentation, batch processing, and spectral analysis.",
-      "Developed expertise in machine learning models for clustering, classification, and regression, and customized deep learning techniques for image classification.",
+      "Aggregate file, registry, and event log activity into a unified timeline.",
+      "Visualize user and attacker actions chronologically.",
+      "Supports filtering by user, process, or artifact type.",
     ],
   },
   {
-    title: "Artificial Intelligence Intern",
-    company_name: "Edunet Foundation | IBM SkillsBuild | AICTE",
-    icon: edunet,
-    iconBg: "#161329",
-    date: "June 2023 - July 2023",
+    title: "Malware Triage & Sandbox",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: CompileVortex,
+    iconBg: "#23272e",
+    date: "Feature",
     points: [
-      "Engineered a comprehensive Mental Health Fitness Tracker ML model utilizing Python and scikit-learn.",
-      "Maximized the model's performance by refining model parameters and employing ensemble methods, yielding an outstanding accuracy percentage of 98.50%.",
-      "Leveraged 12 regression algorithms to attain precise outcomes in analyzing and predicting mental fitness levels across 150+ countries.",
+      "Isolate and execute suspicious files in a secure sandbox.",
+      "Automatic behavioral analysis and IOC extraction.",
+      "Generate detailed reports for incident response.",
+    ],
+  },
+  {
+    title: "Disk & File Carving",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: sketcher,
+    iconBg: "#23272e",
+    date: "Feature",
+    points: [
+      "Recover deleted files and partitions from disk images.",
+      "Supports NTFS, FAT, exFAT, and EXT file systems.",
+      "Preview carved files before export.",
+    ],
+  },
+  {
+    title: "Network Traffic Forensics",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: nodejs,
+    iconBg: "#23272e",
+    date: "Feature",
+    points: [
+      "Capture and analyze live or offline network traffic.",
+      "Detect C2 communications, exfiltration, and lateral movement.",
+      "Integrates with threat intelligence feeds for enrichment.",
+    ],
+  },
+  {
+    title: "Cross-Platform Artifact Parsing",
+    company_name: "Glittery Helmet Forensics Suite",
+    icon: python,
+    iconBg: "#23272e",
+    date: "Feature",
+    points: [
+      "Parse browser history, registry, system logs, and more across Windows, macOS, and Linux.",
+      "Automated artifact extraction and reporting.",
+      "Customizable modules for new artifact types.",
     ],
   },
 ];
@@ -105,7 +142,7 @@ export const projects = [
       { name: "Weather API by API Ninjas", color: "yellow-text-gradient" },
     ],
     image: weatherpedia,
-    source_code_link: "https://github.com/lohitkolluri/WeatherPedia",
+    source_code_link: "https://github.com/glitteryhelmet/WeatherPedia",
   },
   {
     name: "Terminal Like Portfolio Website",
@@ -117,7 +154,7 @@ export const projects = [
       { name: "Javascript", color: "pink-text-gradient" },
     ],
     image: termpw,
-    source_code_link: "https://github.com/lohitkolluri/lohitkolluri.github.io",
+    source_code_link: "https://github.com/glitteryhelmet/terminal-portfolio",
   },
   {
     name: "Mental Health Fitness Tracker",
@@ -129,8 +166,7 @@ export const projects = [
       { name: "Regression Algorithms", color: "pink-text-gradient" },
     ],
     image: mhft,
-    source_code_link:
-      "https://github.com/lohitkolluri/mental_health_fitness_tracker",
+    source_code_link: "https://github.com/glitteryhelmet/mental_health_fitness_tracker",
   },
   {
     name: "PayloadMaster",
@@ -140,7 +176,7 @@ export const projects = [
       { name: "shell", color: "blue-text-gradient" },
     ],
     image: payloadmaster,
-    source_code_link: "https://github.com/lohitkolluri/PayloadMaster",
+    source_code_link: "https://github.com/glitteryhelmet/PayloadMaster",
   },
   {
     name: "CompileVortex",
@@ -152,7 +188,7 @@ export const projects = [
       { name: "HTML", color: "pink-text-gradient" },
     ],
     image: CompileVortex,
-    source_code_link: "https://github.com/lohitkolluri/CompileVortex",
+    source_code_link: "https://github.com/glitteryhelmet/CompileVortex",
   },
   {
     name: "Sketcher",
@@ -165,6 +201,6 @@ export const projects = [
     ],
 
     image: sketcher,
-    source_code_link: "https://github.com/lohitkolluri/Image_to_Pencil_Sketch_App",
+    source_code_link: "https://github.com/glitteryhelmet/Image_to_Pencil_Sketch_App",
   },
 ];
