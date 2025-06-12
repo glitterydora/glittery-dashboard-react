@@ -29,6 +29,7 @@ import threejs from "./tech/threejs.png";
 
 // Import common assets
 import logo from "./logo.svg";
+import shield from "./shield.svg";
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -59,4 +60,5 @@ export {
   menu,
   close,
   eduskill,
+  shield
 };

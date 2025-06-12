@@ -54,14 +54,12 @@ const Works = () => {
   return (
     <>
       <motion.div variants={textVariant()}>
-        <p className={`${styles.sectionSubText} `}>My work</p>
-        <h2 className={`${styles.sectionHeadText}`}>Projects</h2>
+        <p className={`${styles.sectionSubText} `}>showcase</p>
+        <h2 className={`${styles.sectionHeadText}`}>Client use cases</h2>
       </motion.div>
       <div className="w-full flex">
         <motion.p variants={fadeIn("", "", 0.1)} className="mt-3 text-secondary text-[17px] max-w-3xl leading-[30px]">
-          Following projects showcase my skills and experience through examples
-          of my work. Each project is briefly described with links to code
-          repositories in it.
+          Unlock rapid, automated digital investigations with Glittery Helmet—an advanced platform for evidence collection, timeline reconstruction, and threat analysis across any device or environment.
         </motion.p>
       </div>
       <div className="mt-20 flex flex-wrap gap-7">
