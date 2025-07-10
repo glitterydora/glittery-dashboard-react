@@ -64,7 +64,8 @@ const Contact = () => {
     }
 
     setLoading(true);
-    //we should remove this function and use the emailjs-serverless package to send the email
+    //we should remove this function 
+    // and use the emailjs-serverless package to send the email
     emailjs
       .send(
         "service_r2i0by4",
