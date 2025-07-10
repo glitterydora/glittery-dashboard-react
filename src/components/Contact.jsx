@@ -64,7 +64,7 @@ const Contact = () => {
     }
 
     setLoading(true);
-
+    //We should remove this function
     emailjs
       .send(
         "service_r2i0by4",
