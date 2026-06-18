@@ -22,7 +22,7 @@ const Hero = () => {
             Welcome to <span className="text-[#915EFF]">Glittery Helmet!</span>
           </h1>
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            Forensic investigation made simple.
+            AI-powered forensics.
           </p>
         </div>
       </div>
