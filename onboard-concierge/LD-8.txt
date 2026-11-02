@@ -1,0 +1,13 @@
+LD-8: Deliver a multilingual and accessible Economy experience
+
+User story
+As a Lufthansa passenger, I want the Onboard Concierge to work in my language and with assistive technology.
+
+Acceptance criteria
+- Support German, English and French for core flows and messages.
+- Provide accessible labels, focus order, contrast and error states.
+- Localize dates, times, currencies and airport names.
+- Validate mobile web and app journeys with accessibility QA.
+
+Dependencies
+Content design, translation, accessibility QA and partner UI constraints.
