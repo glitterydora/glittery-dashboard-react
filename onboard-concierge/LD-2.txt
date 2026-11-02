@@ -1,0 +1,13 @@
+LD-2: Book Deutsche Bahn or SNCF rail travel after landing
+
+User story
+As an Economy passenger, I want to book onward rail travel after landing.
+
+Acceptance criteria
+- Show eligible Deutsche Bahn or SNCF options using arrival data.
+- Present departure time, duration, class, price and conditions.
+- Add a successful booking to the trip view.
+- Explain unavailable inventory or partner errors clearly.
+
+Dependencies
+Flight status, Deutsche Bahn and SNCF APIs, payments and localization.
