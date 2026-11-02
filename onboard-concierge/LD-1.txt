@@ -1,0 +1,13 @@
+LD-1: Choose your Economy meal in advance
+
+User story
+As an Economy passenger, I want to review and select my meal before departure.
+
+Acceptance criteria
+- Show eligible meals for the booked flight and cabin.
+- Include dietary and allergen information.
+- Allow changes until the configured cut-off time.
+- Confirm the selection in the trip view.
+
+Dependencies
+Booking data, catering inventory, notifications and localization.
