@@ -1,0 +1,13 @@
+LD-7: Send contextual reminders and service notifications
+
+User story
+As an Economy passenger, I want timely reminders about my selected services.
+
+Acceptance criteria
+- Remind passengers about meal selection deadlines.
+- Send rail, taxi and duty-free confirmations or disruption updates.
+- Deep-link each notification to the relevant trip service.
+- Respect notification preferences and quiet hours.
+
+Dependencies
+Flight status, partner webhooks, notification service, consent and localization.
